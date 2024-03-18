@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Submissions</title>
+    <style>
+         body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header h1, footer p {
+	text-align: center;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around; /* Adjusts spacing around items */
+}
+
+article {
+    border: 1px solid #ddd;
+    margin: 10px;
+    flex-basis: calc(33% - 20px); /* Three items per row - adjust margin */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden; /* Ensures the content fits within the borders */
+    display: flex;
+    flex-direction: column;
+}
+
+article h2 {
+    margin: 20px 10px 10px 10px;
+    font-size: 1.2rem;
+}
+
+article p {
+    margin: 0 10px 20px 10px;
+    flex-grow: 1; /* Ensures that the footer aligns to the bottom */
+    font-size: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    article {
+        flex-basis: calc(50% - 20px); /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    article {
+        flex-basis: 100%; /* Full width on very small screens */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+	    <h1>Fri3dCamp2024 confirmed content</h1>
+    </header>
+    <section>
+        <% filteredSubmissions.forEach(submission => { %>
+            <article>
+                <h2><%= submission.title %></h2>
+                <p>Speaker(s): <%= submission.speakers.map(speaker => speaker.name).join(', ') %></p>
+                <p><%= submission.abstract %></p>
+            </article>
+        <% }); %>
+    </section>
+    <footer>
+	    <p>This website was created in record time, so the layout is quick and dirty, deal with it.</p>
+    </footer>
+</body>
+</html>
+
