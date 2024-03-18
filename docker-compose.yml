@@ -1,0 +1,9 @@
+version: "3"
+services:
+  main:
+    build: .
+    environment:
+      - AUTH_TOKEN
+    ports:
+      - 127.0.0.1:3000:3000
+
