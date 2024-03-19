@@ -43,6 +43,12 @@ async function scheduledFetch() {
         const isNotNSFWWorkshop = !(submission.submission_type.en === 'NSFW workshop (120 min)' && submission.submission_type.nl === 'NSFW workshop (120 min)');
         return isConfirmed && isNotNSFWWorkshop;
     });
+    for (let i = filteredSubmissions.length - 1; i > 0; i--) {
+        // Generate a random index between 0 and i
+        const j = Math.floor(Math.random() * (i + 1));
+        // Swap elements at indices i and j
+        [filteredSubmissions[i], filteredSubmissions[j]] = [filteredSubmissions[j], filteredSubmissions[i]];
+    }
     // Process the submissions as needed
 //    for (let s of filteredSubmissions) {
 //	    console.log(s.submission_type)
