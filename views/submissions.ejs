@@ -1,79 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmed content</title>
-    <style>
-         body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-header h1, footer p {
-	text-align: center;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    justify-content: space-around; /* Adjusts spacing around items */
-}
-
-article {
-    border: 1px solid #ddd;
-    margin: 10px;
-    flex-basis: calc(33% - 20px); /* Three items per row - adjust margin */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    border-radius: 5px;
-    overflow: hidden; /* Ensures the content fits within the borders */
-    display: flex;
-    flex-direction: column;
-}
-
-article h2 {
-    margin: 20px 10px 10px 10px;
-    font-size: 1.2rem;
-}
-
-article p {
-    margin: 0 10px 20px 10px;
-    flex-grow: 1; /* Ensures that the footer aligns to the bottom */
-    font-size: 1rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    article {
-        flex-basis: calc(50% - 20px); /* Two items per row on smaller screens */
-    }
-}
-
-@media (max-width: 480px) {
-    article {
-        flex-basis: 100%; /* Full width on very small screens */
-    }
-}
-
-    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Confirmed content</title>
+	<link rel="stylesheet" href="/style.css">
+	<script type="text/javascript" src="/static/content.js"></script>
 </head>
-<body>
-    <header>
-	    <h1>Fri3dCamp2024 confirmed content</h1>
-    </header>
-    <section>
-        <% filteredSubmissions.forEach(submission => { %>
-            <article>
-                <h2><%= submission.title %></h2>
-                <p>Speaker(s): <%= submission.speakers.map(speaker => speaker.name).join(', ') %></p>
-                <p><%= submission.abstract %></p>
-            </article>
-        <% }); %>
-    </section>
-    <footer>
-	    <p>This website was created in record time, so the layout is quick and dirty, deal with it.</p>
-    </footer>
-</body>
-</html>
 
+<body class="bg-neutral-800">
+	<div
+		class="flex justify-center bg-fri3d_C bg-pattern bg-top bg-[length:900px] sm:bg-[length:1800px] h-[75px] sm:h-[150px] lg:h-[225px]">
+		<a href="https://www.fri3d.be/"
+			class="bg-black bg-logo_white bg-[length:100px] sm:bg-[length:250px] h-[75px] w-[150px] sm:h-[150px] sm:w-[300px] bg-no-repeat bg-center"><span
+				class="sr-only">Fri3d Camp</span></a>
+	</div>
+	<div class=" p-4 ">
+		<header class="mb-3">
+			<h1 class="text-2xl font-bold text-center text-white">Confirmed content 2024</h1>
+		</header>
+		<section class="w-full flex flex-col flex-wrap gap-3 h-screen content-center justify-start"  id="js_container">
+			<% filteredSubmissions.forEach(submission=> { %>
+				<article class="w-80 md:w-96 lg:w-108 shrink p-4 bg-white">
+					<h2 class="font-bold text-lg mb-2 pb-2 border-b-2 border-fri3d_C">
+						<%= submission.title %>
+					</h2>
+					<div class="mb-2 italic">
+						<h3 class="font-bold inline">Speaker(s):</h3>
+						<%= submission.speakers.map(speaker=> speaker.name).join(', ') %>
+					</div>
+					<p>
+						<%= submission.abstract %>
+					</p>
+				</article>
+				<% }); %>
+		</section>
+</body>
+
+</html>

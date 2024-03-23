@@ -1,9 +1,12 @@
 import fetch from 'node-fetch';
 import cron from 'node-cron';
 import express from 'express';
+import {readFileSync} from "fs"
 const app = express();
 
 app.set('view engine', 'ejs');
+
+console.log(process.env);
 
 // Function to fetch all submissions recursively
 async function fetchAllSubmissions(url, allSubmissions = []) {
@@ -55,12 +58,28 @@ async function scheduledFetch() {
 //    }
 }
 
+async function dummyFetch() {
+	filteredSubmissions = JSON.parse(readFileSync("./data/dummy.json", 'utf8'));
+	console.log(filteredSubmissions);
+}
+
 // Schedule the task to run every hour
-cron.schedule('0 * * * *', scheduledFetch);
+
+if (process.env.USE_DUMMY) {
+	cron.schedule('* * * * *', dummyFetch);
+} else {
+	cron.schedule('0 * * * *', scheduledFetch);
+}
 
 console.log('Scheduled task set to fetch submissions every hour.');
 
-scheduledFetch();
+if (process.env.USE_DUMMY) {
+	dummyFetch();
+} else {
+	scheduledFetch();
+}
+
+app.use(express.static('public'))
 
 app.get('/', function(req, res) {
 	res.render('submissions', { filteredSubmissions } );
