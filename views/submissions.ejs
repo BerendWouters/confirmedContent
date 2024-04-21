@@ -23,9 +23,16 @@
 		<section class="w-full flex flex-col flex-wrap gap-3 h-screen content-center justify-start"  id="js_container">
 			<% filteredSubmissions.forEach(submission=> { %>
 				<article class="w-80 md:w-96 lg:w-108 shrink p-4 bg-white">
-					<h2 class="font-bold text-lg mb-2 pb-2 border-b-2 border-fri3d_C">
-						<%= submission.title %>
-					</h2>
+					<div class="flex justify-between border-b-2 border-fri3d_C">
+						<h2 class="font-bold text-lg mb-2 pb-2 ">
+							<%= submission.title %>		
+							
+						</h2>
+						<% if(submission.submission_type?.nl){ %>
+						<span class="rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20">
+							<%= submission.submission_type?.nl %></span>					
+						<% } %>
+					</div>
 					<div class="mb-2 italic">
 						<h3 class="font-bold inline">Speaker(s):</h3>
 						<%= submission.speakers.map(speaker=> speaker.name).join(', ') %>
