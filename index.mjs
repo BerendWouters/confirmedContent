@@ -40,6 +40,7 @@ let filteredSubmissions;
 async function scheduledFetch() {
     const submissions = await fetchAllSubmissions('https://content.fri3d.be/api/events/fri3dcamp2024/submissions/');
     console.log(`Fetched ${submissions.length} submissions.`);
+    extractFilterTypes(submissions);
     // Filter submissions by state and exclude specific submission type
     filteredSubmissions = submissions.filter(submission => {
         const isConfirmed = submission.state === 'confirmed';
@@ -60,7 +61,15 @@ async function scheduledFetch() {
 
 async function dummyFetch() {
 	filteredSubmissions = JSON.parse(readFileSync("./data/dummy.json", 'utf8'));
-	console.log(filteredSubmissions);
+    extractFilterTypes(filteredSubmissions);
+	
+}
+
+function extractFilterTypes(submissions){
+    
+    const filterTypes = [...new Set(submissions.filter(s => s.submission_type).map(s => s.submission_type?.en))]
+    console.log(filterTypes);
+    
 }
 
 // Schedule the task to run every hour
