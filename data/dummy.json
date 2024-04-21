@@ -1,296 +1,560 @@
 [
   {
     "title": "Hacker Jeopardy! (SciFi)",
-    "speakers": [{ "name": "Kevin E." }],
-    "abstract": "We spelen Jeopardy! Een knotsgekke quiz waarbij maximum 3 teams van 3 personen het tegen elkaar opnemen. Deze editie gaat over Science Fiction."
+    "speakers": [
+      {
+        "name": "Kevin E."
+      }
+    ],
+    "abstract": "We spelen Jeopardy! Een knotsgekke quiz waarbij maximum 3 teams van 3 personen het tegen elkaar opnemen. Deze editie gaat over Science Fiction.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "DIY ESP32-S2 Flipper Zero Wi-Fi Addon Module Workshop by Ko-Lab Hacker/Maker Space Mechelen",
-    "speakers": [{ "name": "Francis Duvivier" }],
-    "abstract": "Ko-Lab Hacker/Maker Space Mechelen is organising a workshop where you will be guided to create your own DIY ESP32-S2 Flipper Zero Wi-Fi Addon Module based on the Marauder project.\nWarning: Only useful for (future) owners of a Flipper Zero!"
+    "speakers": [
+      {
+        "name": "Francis Duvivier"
+      }
+    ],
+    "abstract": "Ko-Lab Hacker/Maker Space Mechelen is organising a workshop where you will be guided to create your own DIY ESP32-S2 Flipper Zero Wi-Fi Addon Module based on the Marauder project.\nWarning: Only useful for (future) owners of a Flipper Zero!",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Hacker Jeopardy! (Kids)",
-    "speakers": [{ "name": "Kevin E." }],
-    "abstract": "We spelen Jeopardy! Een knotsgekke quiz waarbij maximum 3 teams van 3 personen het tegen elkaar opnemen. Deze editie is speciaal voor kinderen."
+    "speakers": [
+      {
+        "name": "Kevin E."
+      }
+    ],
+    "abstract": "We spelen Jeopardy! Een knotsgekke quiz waarbij maximum 3 teams van 3 personen het tegen elkaar opnemen. Deze editie is speciaal voor kinderen.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "programmeer met Machine Learning en speel blad, steen & schaar tegen de computer",
-    "speakers": [{ "name": "Jan Tiri" }],
-    "abstract": "Wist je dat je een computer kan leren om onder andere gebaren te herkennen? We gaan dit gebruiken om blad/steen/schaar te programmeren en daarna ook te spelen tegen de computer, zonder een toetsenbord of muis aan te raken!"
+    "speakers": [
+      {
+        "name": "Jan Tiri"
+      }
+    ],
+    "abstract": "Wist je dat je een computer kan leren om onder andere gebaren te herkennen? We gaan dit gebruiken om blad/steen/schaar te programmeren en daarna ook te spelen tegen de computer, zonder een toetsenbord of muis aan te raken!",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Hoe kabels opbergen",
-    "speakers": [{ "name": "Christophe Lambrechts" }],
-    "abstract": "Over en onder oprollen van kabels. Al twee edities van Fri3d sta ik na het kamp achter de tent aan deelnemers uit te leggen hoe ze kabels netjes kunnen oprollen. Dit kan wel in een kleine workshop gegoten worden."
+    "speakers": [
+      {
+        "name": "Christophe Lambrechts"
+      }
+    ],
+    "abstract": "Over en onder oprollen van kabels. Al twee edities van Fri3d sta ik na het kamp achter de tent aan deelnemers uit te leggen hoe ze kabels netjes kunnen oprollen. Dit kan wel in een kleine workshop gegoten worden.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Radioactiviteit, komt dat zien!",
-    "speakers": [{ "name": "Dimitri Janssen" }],
-    "abstract": "Na een korte introductie over radioactiviteit en ioniserende straling bespreken we het principe van een nevelkamer en tonen we hoe deze die straling zichtbaar maakt met een live demonstratie."
+    "speakers": [
+      {
+        "name": "Dimitri Janssen"
+      }
+    ],
+    "abstract": "Na een korte introductie over radioactiviteit en ioniserende straling bespreken we het principe van een nevelkamer en tonen we hoe deze die straling zichtbaar maakt met een live demonstratie.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "start 2 program your badge",
-    "speakers": [{ "name": "Joram Agten, Bart Huylebroeck" }],
-    "abstract": "absolute beginnershandleiding om je badge te programmeren met de standaard firmware"
+    "speakers": [
+      {
+        "name": "Joram Agten, Bart Huylebroeck"
+      }
+    ],
+    "abstract": "absolute beginnershandleiding om je badge te programmeren met de standaard firmware",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Ervaringen van een software dev in hardware land",
-    "speakers": [{ "name": "Berend Wouters" }],
-    "abstract": "Ik ben heel goed in software schrijven, maar ik heb nooit iets met hardware gedaan. Tot een paar jaar geleden.. dit is het verhaal."
+    "speakers": [
+      {
+        "name": "Berend Wouters"
+      }
+    ],
+    "abstract": "Ik ben heel goed in software schrijven, maar ik heb nooit iets met hardware gedaan. Tot een paar jaar geleden.. dit is het verhaal.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Crackle box",
-    "speakers": [{ "name": "thomas betsens" }],
-    "abstract": "Een muzikale noise box. Door aanraking van van touchpoints genereer je noise en crackles. Het is een zeer experimenteel instrument waarbij de speler of spelers door aanraking nieuwe klanken kan maken."
+    "speakers": [
+      {
+        "name": "thomas betsens"
+      }
+    ],
+    "abstract": "Een muzikale noise box. Door aanraking van van touchpoints genereer je noise en crackles. Het is een zeer experimenteel instrument waarbij de speler of spelers door aanraking nieuwe klanken kan maken.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "fri3d badge: de grot van Wumpus",
-    "speakers": [{ "name": "Joram Agten" }],
-    "abstract": "Programmeer zelf een eigen versie van Hunt The Wumpus voor op je fri3d badge.\n\nAfhankelijk van de default fri3d badge firmware:\n1.  We gebruiken het micropython framework (Visual Studio Code) en maken een tekst versie als starter.\nMogelijke uitbreidingen door de regels aan te passen en / of een gui toe te voegen.  \nProgrammeerkennis vereist (micro)python\n2. We gebruiken het arduino framework (Visual Studio Code met platform IO) en maken een tekst versie als starter.\nMogelijke uitbreidingen door de regels aan te passen en / of een gui toe te voegen.  \nProgrammeerkennis vereist (C/C++)"
+    "speakers": [
+      {
+        "name": "Joram Agten"
+      }
+    ],
+    "abstract": "Programmeer zelf een eigen versie van Hunt The Wumpus voor op je fri3d badge.\n\nAfhankelijk van de default fri3d badge firmware:\n1.  We gebruiken het micropython framework (Visual Studio Code) en maken een tekst versie als starter.\nMogelijke uitbreidingen door de regels aan te passen en / of een gui toe te voegen.  \nProgrammeerkennis vereist (micro)python\n2. We gebruiken het arduino framework (Visual Studio Code met platform IO) en maken een tekst versie als starter.\nMogelijke uitbreidingen door de regels aan te passen en / of een gui toe te voegen.  \nProgrammeerkennis vereist (C/C++)",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "DIY RC Auto bouwen : MAKEN",
-    "speakers": [{ "name": "Frederik Anrys" }],
-    "abstract": "Hoe cool zou het zijn om je eigen een echte remote controlled racecar te bouwen? Dat is mogelijk en zelfs niet zo heel moeilijk. Met een servo, motor en een sturing komen we een heel eind om een rijdende stuntcar te maken. Deze workshop geeft je de basis mee om te starten en wanneer je eenmaal vertrokken bent, kan je dagen en uren verder knutselen, testen, upgraden en racen!\n\nBest breng je eigen kuntselmateriaal mee om de body van je auto te pimpen of de racetrack te maken. Wij zorgen voor de rest"
+    "speakers": [
+      {
+        "name": "Frederik Anrys"
+      }
+    ],
+    "abstract": "Hoe cool zou het zijn om je eigen een echte remote controlled racecar te bouwen? Dat is mogelijk en zelfs niet zo heel moeilijk. Met een servo, motor en een sturing komen we een heel eind om een rijdende stuntcar te maken. Deze workshop geeft je de basis mee om te starten en wanneer je eenmaal vertrokken bent, kan je dagen en uren verder knutselen, testen, upgraden en racen!\n\nBest breng je eigen kuntselmateriaal mee om de body van je auto te pimpen of de racetrack te maken. Wij zorgen voor de rest",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Waterverf landschappen",
-    "speakers": [{ "name": "Vaya Willemen" }],
-    "abstract": "Floris De Hert (14 jaar) wil zijn ervaringen en experimenten met het maken van waterverf landschappen delen met andere mensen die graag willen (leren) schilderen. Breng je waterverf paletje, enkele penselen en een stuk stevig papier mee."
+    "speakers": [
+      {
+        "name": "Vaya Willemen"
+      }
+    ],
+    "abstract": "Floris De Hert (14 jaar) wil zijn ervaringen en experimenten met het maken van waterverf landschappen delen met andere mensen die graag willen (leren) schilderen. Breng je waterverf paletje, enkele penselen en een stuk stevig papier mee.",
+    "submission_type": {
+      "nl": "Workshop"
+    }
   },
   {
     "title": "Programmeren met BBC Micro:bit",
-    "speakers": [{ "name": "Eddy Vanbever" }],
+    "speakers": [
+      {
+        "name": "Eddy Vanbever"
+      }
+    ],
     "abstract": "Leren programmeren met BBC Micro:bit voor beginners en gevorderden"
   },
   {
     "title": "Scratch voor beginners",
-    "speakers": [{ "name": "Eddy Vanbever, Benoît de Biolley" }],
+    "speakers": [
+      {
+        "name": "Eddy Vanbever, Benoît de Biolley"
+      }
+    ],
     "abstract": "Scratch is een blokjes programma en maakt het gemakkelijk om te begrijpen hoe programmeren werkt"
   },
   {
     "title": "GIT structuur en beginners problemen",
-    "speakers": [{ "name": "David Heremans" }],
+    "speakers": [
+      {
+        "name": "David Heremans"
+      }
+    ],
     "abstract": "Beginnende GIT gebruikers hebben meestal geen juist mentaal beeld van de werking van git. Deze talk wil de beginnende git gebruiker een juist mentaal model van GIT bezorgen en een aantal tips geven om beginners fouten te corrigeren."
   },
   {
     "title": "starter scratch thema muziek + gevorderde sonic pi",
     "speakers": [
-      { "name": "Joram Agten, Van Hooreweder Kelly, David Heremans" }
+      {
+        "name": "Joram Agten, Van Hooreweder Kelly, David Heremans"
+      }
     ],
     "abstract": "Programeer met een midi toetsenbord een heus muziekstuk of een drumcomputer, experimenteer met geluid.  \nAls starter kan je via scratch muziek leren maken.  \nAls gevorderde kan je met sonic pi muziek programmeren."
   },
   {
     "title": "Hacker Jeopardy! (Tech)",
-    "speakers": [{ "name": "Kevin E." }],
+    "speakers": [
+      {
+        "name": "Kevin E."
+      }
+    ],
     "abstract": "We spelen Jeopardy! Een knotsgekke quiz waarbij maximum 3 teams van 3 personen het tegen elkaar opnemen. Deze editie gaat over Tech."
   },
   {
     "title": "Aqua blast extravaganza",
-    "speakers": [{ "name": "Raketman" }],
+    "speakers": [
+      {
+        "name": "Raketman"
+      }
+    ],
     "abstract": "🚀🌊 Dive into a whirlpool of creativity at the Aqua Blast Extravaganza, a water bottle rocket workshop where H2-Whoa meets DIY Wow! Join us for an aqua-tastic adventure that&#39;ll leave your inner scientist dripping with joy."
   },
   {
     "title": "Houtgraveren",
-    "speakers": [{ "name": "Peggy" }],
+    "speakers": [
+      {
+        "name": "Peggy"
+      }
+    ],
     "abstract": "Graveer en leuke deurhanger voor je  kamer \nGeeft je eigen glas onderzetter net dat ietsjes meer \nWe voorzien 10 graveer toestellen / mondmaskers/ hout materiaal\nHelaas zijn we beperkt in inschrijving\nDe workshop duurt ongeveer 1u dus we kunnen in 2 tijd sloten werken\nVanaf 10jaar  begeleid door ouder We werken met een zeer warme grafeerpen hier is toch wat voorzichtigheid geboden (Brandwonden zijn helaas snel gebeurd dus je aandacht is hier zeker vereis"
   },
   {
     "title": "About that time I almost hacked DEFCON.",
-    "speakers": [{ "name": "Kevin E." }],
+    "speakers": [
+      {
+        "name": "Kevin E."
+      }
+    ],
     "abstract": "What happens when a 23 year old finds the keys to thousands of servers, containing millions of user details? A real hacker story about the dilemma of doing the right thing, the wrong thing, or nothing. (contains adult topics, not for kids)."
   },
   {
     "title": "Buttons maken",
-    "speakers": [{ "name": "Jannemien Van Lierde" }],
+    "speakers": [
+      {
+        "name": "Jannemien Van Lierde"
+      }
+    ],
     "abstract": "Zelf buttons maken met een button machine. Voor kinderen tot en met 13 jaar"
   },
   {
     "title": "Home Automation Show and Tell",
-    "speakers": [{ "name": "Berend Wouters" }],
+    "speakers": [
+      {
+        "name": "Berend Wouters"
+      }
+    ],
     "abstract": "Show and Tell van Home Automation oplossingen"
   },
   {
     "title": "bouw je eigen boombox",
-    "speakers": [{ "name": "Jakob Visker, Michiel Ryvers" }],
+    "speakers": [
+      {
+        "name": "Jakob Visker, Michiel Ryvers"
+      }
+    ],
     "abstract": "Workshop: &#39;Bouw je eigen Bluetooth boombox&#39;. Ontdek geluidstechnologie en leer solderen!"
   },
   {
     "title": "Bestuur je &#34;things&#34; met een smartphone, ook zonder internet",
-    "speakers": [{ "name": "FedericoBusero" }],
+    "speakers": [
+      {
+        "name": "FedericoBusero"
+      }
+    ],
     "abstract": "Als je een robot, hovercraft, zeppelin of een ander (Arduino) ding wil besturen met je smartphone zijn er veel mogelijkheden. Deze talk geeft een overzicht van de verschillende opties om zonder internet toch je smartphone te gebruiken als afstandsbediening."
   },
   {
     "title": "NixOS: waarom (niet)?",
-    "speakers": [{ "name": "Jasper" }],
+    "speakers": [
+      {
+        "name": "Jasper"
+      }
+    ],
     "abstract": "NixOS introductie & een aantal voorbeelden van hoe het gebruikt kan worden voor bv. het ontwikkelen & uitrollen van applicaties."
   },
   {
     "title": "Passie voor robotica",
-    "speakers": [{ "name": "Frank Marchal" }],
+    "speakers": [
+      {
+        "name": "Frank Marchal"
+      }
+    ],
     "abstract": "In deze talk neem ik je graag mee op sleeptouw in de robotica doe-het-zelf wereld. Ik ga je vertellen over mijn eerste knutsel ervaring met een LEGO robot tot mijn laatste robots die ik aan het bouwen of sturen ben geweest. Het zal van servo en stappenmotor gestuurde robots tot drones en vechtrobotten gaan. Je kan er inspiratie uit op doen om misschien zelf de stap te zetten naar robotica."
   },
   {
     "title": "Pluviometer bouwen",
-    "speakers": [{ "name": "Jelle Victoor" }],
+    "speakers": [
+      {
+        "name": "Jelle Victoor"
+      }
+    ],
     "abstract": "waarom naar buiten kijken om te zien of het regent als je het in je home assistant of grafana kan zien?"
   },
   {
     "title": "Metrologie 101: een geschiedenis van de wetenschap van het meten",
-    "speakers": [{ "name": "xans" }],
+    "speakers": [
+      {
+        "name": "xans"
+      }
+    ],
     "abstract": "Meten is overal rond ons, in de meest geavanceerde wetenschappelijke expermineten tot een kilo groenten kopen in de winkel. Maar hoe zijn we geraakt tot deze eenheden? Dat allemaal kom je te weten over deze talk over metrologie, de wetenschap van het meten."
   },
   {
     "title": "LED Strips Everywhere for Everyone! workshop",
-    "speakers": [{ "name": "Mitch Altman" }],
+    "speakers": [
+      {
+        "name": "Mitch Altman"
+      }
+    ],
     "abstract": "&lt;strong&gt;Learn how to program LED strips.&lt;/strong&gt;&lt;br&gt;\nIt&#39;s super easy and fun to make your life trippy and beautiful.&lt;br&gt;&lt;i&gt;For total beginners -- no knowledge needed at all.&lt;/i&gt;"
   },
   {
     "title": "Glasgraveren",
-    "speakers": [{ "name": "Peggy" }],
+    "speakers": [
+      {
+        "name": "Peggy"
+      }
+    ],
     "abstract": "Graveer je glas met  leuke tekst of tekening laat je fantasie de vrijeloop\nWe voorzien 10 graveer toestellen / mondmaskers/  verschillende soorten glazen\nglazen. Helaas zijn we beperkt in inschrijving\nDe workshop duurt ongeveer 1u dus we kunnen in 2 tijd sloten werken\nDe workshop is toegankelijk voor jong en......\nVanaf 10jaar indien jonger begeleid door ouder"
   },
   {
     "title": "Digital Music Synthesis/Solder workshop with ArduTouch music synthesizer kit",
-    "speakers": [{ "name": "Mitch Altman" }],
+    "speakers": [
+      {
+        "name": "Mitch Altman"
+      }
+    ],
     "abstract": "_**Anyone can learn to solder!**_  \n_And anyone can learn to make music, sound (and noise!) with computer chips!_  \nAll participants will easily learn all of this by making an **[ArduTouch music synthesizer](https://cornfieldelectronics.com/cfe/projects.php#ardutouch)** from a kit."
   },
   {
     "title": "Zelfzorg voor zorgende ouders: Tijd vrijmaken en batterijen opladen",
-    "speakers": [{ "name": "Anne Marie Verlinden" }],
+    "speakers": [
+      {
+        "name": "Anne Marie Verlinden"
+      }
+    ],
     "abstract": "Een Magenta workshop met nuttige tips en informatie rond zelfzorg voor ouders van een kind met extra zorgnoden."
   },
   {
     "title": "Learn to Solder workshop",
-    "speakers": [{ "name": "Mitch Altman" }],
+    "speakers": [
+      {
+        "name": "Mitch Altman"
+      }
+    ],
     "abstract": "_**Anyone** can learn to solder!_  \nIt is useful and fun.  \nThis workshop is for **kids of all ages** (and anyone of any age).\nLearn to solder by making a cool badge that you can wear and blink wherever you go.\nThe **[&#34;I Can Solder!&#34; Badge kit](https://cornfieldelectronics.com/cfe/projects.php#solderbadge)** is a very simple [open hardware](https://github.com/maltman23/I-Can-Solder--Badge-kit-V2) kit that anyone can use for learning to solder.\n_This workshop is for **total newbies** to learn to solder.  All ages._"
   },
   {
     "title": "Zweefvliegen: de meest nerdy luchtsport",
-    "speakers": [{ "name": "Benny Geys" }],
+    "speakers": [
+      {
+        "name": "Benny Geys"
+      }
+    ],
     "abstract": "Ik ga jullie in het kort vertellen waarom ik zweefvliegen de meest nerdy luchtsport vind. Met coole filmpjes, techniek, fysica, vakjargon en een hoop onzin."
   },
   {
     "title": "Start 2 Program Your Badge (C++)",
-    "speakers": [{ "name": "Joram Agten, Bart Huylebroeck" }],
+    "speakers": [
+      {
+        "name": "Joram Agten, Bart Huylebroeck"
+      }
+    ],
     "abstract": "Je hebt net een coole badge gekregen. Hoe kan je daar nu zelf iets voor programmeren? Breng je badge en een USB-C kabel. Breng je laptop mee met daarop liefst al Arduino IDE of Visual Stude Code. Beide programma&#39;s zijn gratis te downloaden. Wij werken in C(++). Er is een gelijknamige (S2PYB) workshop die met de ingebouwde Python zal werken."
   },
   {
     "title": "Maak je eigen game met MakeCode",
-    "speakers": [{ "name": "Lars De Richter" }],
+    "speakers": [
+      {
+        "name": "Lars De Richter"
+      }
+    ],
     "abstract": "We maken samen een arcade game (Asteroids) met MakeCode."
   },
   {
     "title": "Spaghetti en marshmallow brug",
-    "speakers": [{ "name": "Christophe Lambrechts" }],
+    "speakers": [
+      {
+        "name": "Christophe Lambrechts"
+      }
+    ],
     "abstract": "Competitie waarin deelnemers een zo stevig mogelijke brug bouwen uit spaghetti en marshmallow&#39;s."
   },
   {
     "title": "Geocaching on stereoids: de jacht op weerballonnen en radiosondes",
-    "speakers": [{ "name": "Raketman" }],
+    "speakers": [
+      {
+        "name": "Raketman"
+      }
+    ],
     "abstract": "Ontdek de opwindende wereld van weerballonjacht en radiosonde-technologie in onze aankomende lezing. Deze unieke sessie combineert avontuur met wetenschap, waarbij deelnemers leren over het opsporen van weerballonnen en het hacken en herprogrammeren van radiosondes. We introduceren de basisprincipes van het jagen op neergedaalde ballonnen, met praktische tips over het gebruik van ontvangstapparatuur, GPS, en vluchtvoorspellingssoftware. Daarnaast onthullen we hoe je met een eenvoudig en betaalbaar zelfgebouwd ontvangsttoestel de telemetrie van radiosondes kunt ontvangen en hun landingsplaats kan opsporen. Deze lezing is niet alleen een kans om te leren over deze fascinerende hobby, maar ook om deel uit te maken van een groeiende gemeenschap van technologie- en avontuurliefhebbers. Of je nu een beginner of ervaren radioamateur bent, deze lezing biedt een boeiend inzicht in de wereld van meteorologische verkenning en radio-experimenten."
   },
   {
     "title": "De puberteit voor kleine nerds",
-    "speakers": [{ "name": "Jan Fabry" }],
+    "speakers": [
+      {
+        "name": "Jan Fabry"
+      }
+    ],
     "abstract": "De puberteit is verwarrend, en misschien nog meer als je van nature al een denker bent. Kunnen we dat denken uitbuiten om onze kinderen zo te wapenen voor de sociale en hormonale stormen waar ze in terecht gaan komen? Een sessie voor iedereen die binnenkort, nu, of vroeger als nerd door de puberteit gaat of ging."
   },
   {
     "title": "haakworkshop",
-    "speakers": [{ "name": "Evelyn Vancauwenberghe" }],
+    "speakers": [
+      {
+        "name": "Evelyn Vancauwenberghe"
+      }
+    ],
     "abstract": "Kom een haakworkshop volgen in de textielbar. We starten bij het begin; een ketting haken. Met hen die de smaak te pakken hebben, gaan we aan een uiltje werken. Je krijgt het patroon mee naar huis (of je tent) om verder te werken."
   },
   {
     "title": "Arduino For Total Newbies workshop",
-    "speakers": [{ "name": "Mitch Altman" }],
+    "speakers": [
+      {
+        "name": "Mitch Altman"
+      }
+    ],
     "abstract": "_Learn Arduino using TV-B-Gone as an example project_\nYou&#39;ve probably heard lots about [Arduino](https://arduino.cc). But if you don&#39;t know what it is, or how you can use it to do all sorts of cool things, then this fun and easy workshop is for you. As an example project, we&#39;ll be creating a [TV-B-Gone](https://www.tvbgone.com) remote control out of an Arduino you can take home with you."
   },
   {
     "title": "Hardware Hacking Area",
-    "speakers": [{ "name": "Mitch Altman" }],
+    "speakers": [
+      {
+        "name": "Mitch Altman"
+      }
+    ],
     "abstract": "The **Hardware Hacking Area** is a large area for people of all ages and skill levels to come together and play, teach, learn, and share in many and diverse realms of making all sorts of physical things throughout Fri3d Camp. There is a full schedule of workshops on diverse topics, as well as a lot of tools for people to make and fix things."
   },
   {
     "title": "Hoe werkt het menselijk lichaam",
-    "speakers": [{ "name": "koen de boeck" }],
+    "speakers": [
+      {
+        "name": "koen de boeck"
+      }
+    ],
     "abstract": "Hoe werkt ons lichaam? Hoe bewegen wij onze armen en benen? Wat gebeurt er als we een arm breken? En hoe kunnen we dat repareren? Welke organen zitten er in de borstholte en in de buik? Kom het hier allemaal te weten."
   },
   {
     "title": "Creëer je eigen slimme LED-Lamp: Van Soldeerkunst tot Lichtkunstenaar!",
-    "speakers": [{ "name": "Kris Nobels, Geert Vantienen" }],
+    "speakers": [
+      {
+        "name": "Kris Nobels, Geert Vantienen"
+      }
+    ],
     "abstract": "Bouw je Eigen Slimme LED-Lamp en Creëer Kleurpatronen! \nGeen ervaring vereist. \nLeer solderen, programmeer een Arduino met WLED-software en laat je creatieve geest schijnen. \nDeel je werk met anderen, en wie weet, verlicht het hele Fri3d Kamp met je lamp! \nSchrijf je in en word een lichtkunstenaar!"
   },
   {
     "title": "Selfmade games, coderdojo style",
     "speakers": [
-      { "name": "Vaya Willemen, Caroline, Josephine Crijns, Bart Crijns" }
+      {
+        "name": "Vaya Willemen, Caroline, Josephine Crijns, Bart Crijns"
+      }
     ],
     "abstract": "De spelletjes die cdj Lier ontwikkelde in een doorlopende doe opstelling. Kom langs, kies je game en speel voor eer en roem"
   },
   {
     "title": "De technologie achter boardgame design",
-    "speakers": [{ "name": "Karel Titeca" }],
+    "speakers": [
+      {
+        "name": "Karel Titeca"
+      }
+    ],
     "abstract": "Bordspellen zijn al jaren weer helemaal hot. Wist je dat er jaarlijks enkele duizenden nieuwe spellen bijkomen op de markt? Die spellen gaan natuurlijk door een heel proces van design, ontwikkeling, en productie vooraleer ze in een winkelrek liggen. Alles begint bij een idee, maar om dat idee om te zetten in een spel heb je tijd, mensen, en energie nodig. En technologie. Een goede playtest kan je niet uitvoeren zonder uitgebreide data-analyse. Een deck van 150 kaarten met 10 icoontjes per kaart kan je niet zomaar in MS Paint ontwerpen. Je hebt een gestructureerde database nodig en een duidelijke workflow om al je data in een deck kaarten en een effectief spel om te zetten. Ik ben zelf bordspelontwerper en grafisch designer van bordspellen en wil je een kleine kijk achter de technologische schermen van bordspelontwerp bieden."
   },
   {
     "title": "Aanschouw het heelal",
-    "speakers": [{ "name": "Erik Van Lierde" }],
+    "speakers": [
+      {
+        "name": "Erik Van Lierde"
+      }
+    ],
     "abstract": "Als het &#39;s avond donker wordt en als de bewolking een avondje vrijaf neemt dan kan je op het Fri3d kamp genieten van een mooie sterrenhemel. Ontdek de boeiende astronomische objecten aan de hemel met een telescoop of val achterover van wat je kan doen met een klein EAA apparaat. (Electronically-Assisted Astronomy)"
   },
   {
     "title": "Meteoren waarnemen met een radio",
-    "speakers": [{ "name": "Stijn Calders" }],
+    "speakers": [
+      {
+        "name": "Stijn Calders"
+      }
+    ],
     "abstract": "Traditioneel biedt half augustus een overvloed aan meteoren, ook wel bekend als &#34;vallende sterren&#34;. Dit fenomeen is te wijten aan de komeet Swift-Tuttle, die haar sporen van stof achterlaat tijdens haar omloop rond de zon. Jaarlijks doorkruist de Aarde dit stofspoor in augustus, wat resulteert in lichtflitsen wanneer de stofdeeltjes de atmosfeer binnendringen.\nHelaas werpt de maan dit jaar een schaduw over dit kosmische spektakel. Maar geen zorgen, we kunnen nog steeds van deze meteoren genieten door gebruik te maken van een antenne! Tijdens deze workshop laat ik jullie zien hoe we dit fascinerende schouwspel kunnen waarnemen."
   },
   {
     "title": "Bouw je eigen website met HTML en CSS",
-    "speakers": [{ "name": "Lars De Richter" }],
+    "speakers": [
+      {
+        "name": "Lars De Richter"
+      }
+    ],
     "abstract": "Je bouwt met behulp van een online code editor een eenvoudige web pagina en je zet deze gratis online via GitHub pages."
   },
   {
     "title": "HTTP voor dummies",
-    "speakers": [{ "name": "Berend Wouters" }],
+    "speakers": [
+      {
+        "name": "Berend Wouters"
+      }
+    ],
     "abstract": "non-ITers toch de basisprincipes van &#39;t internet uitleggen: HTTP, DNS, browsers, enz"
   },
   {
     "title": "AMA (ask me anything) about digital voice assistants",
-    "speakers": [{ "name": "Jürgen Pabel" }],
+    "speakers": [
+      {
+        "name": "Jürgen Pabel"
+      }
+    ],
     "abstract": "As an addition to my talk this workshop is about digital voice assistants. I will bring at least one the voice assistants that I created, so that everyone gets a chance to play with it (or we&#39;ll take it apart)."
   },
   {
     "title": "De Fri3d Badge in een notendop",
-    "speakers": [{ "name": "Wim Van Gool" }],
+    "speakers": [
+      {
+        "name": "Wim Van Gool"
+      }
+    ],
     "abstract": "Beknopt overzicht van de Badge en diens features."
   },
   {
     "title": "RIP Microgolfoven",
-    "speakers": [{ "name": "Christophe Lambrechts" }],
+    "speakers": [
+      {
+        "name": "Christophe Lambrechts"
+      }
+    ],
     "abstract": "Een oude microgolfoven die al defecten vertoont; willen we verder pijnigen met chipszakken, eieren, metalen lepels, ..."
   },
   {
     "title": "Hovercrafts met WiFi besturing en gyro",
-    "speakers": [{ "name": "Yvon Masyn, FedericoBusero" }],
+    "speakers": [
+      {
+        "name": "Yvon Masyn, FedericoBusero"
+      }
+    ],
     "abstract": "Bouw een model hovercraft met een WiFi-module en bestuur die met je eigen smartphone of tablet. Nu met gyroscoop sensor om gemakkelijker rechtuit te gaan.  Zie https://vimeo.com/672852228. Voor iedereen vanaf 10 jaar (of vanaf 6 jaar met begeleiding). Je krijgt het resultaat en een oplader mee naar huis."
   },
   {
     "title": "KiCad for beginners",
-    "speakers": [{ "name": "xans" }],
+    "speakers": [
+      {
+        "name": "xans"
+      }
+    ],
     "abstract": "Altijd al eens willen weten hoe je een printplaat ontwerpt? Maak je eigen PixelGadget in deze korte workshop die je van idee, tot schema naar printplaat brengt."
   },
   {
     "title": "Kumihimo bandjes maken",
-    "speakers": [{ "name": "Stef" }],
+    "speakers": [
+      {
+        "name": "Stef"
+      }
+    ],
     "abstract": "Introductie tot Kumihimo, een Japanse techniek om bandjes te vlechten."
   },
   {
     "title": "How does a digital voice assistant (like Alexa/Siri/...) actually work?",
-    "speakers": [{ "name": "Jürgen Pabel" }],
+    "speakers": [
+      {
+        "name": "Jürgen Pabel"
+      }
+    ],
     "abstract": "We&#39;ll take a look into the brains of those &#34;smart&#34; voice assistants - and I&#39;ll (at least try to) explain everything in simple terms and concepts; the talk will be a general introduction into this topic."
   },
   {
     "title": "3D printen - hoe begin je daar aan?",
-    "speakers": [{ "name": "Tom Van &#39;t veld" }],
+    "speakers": [
+      {
+        "name": "Tom Van &#39;t veld"
+      }
+    ],
     "abstract": "Altijd al gefascineerd geweest door 3D printers, maar weet je niet hoe er aan te beginnen? In deze talk leg ik je uit wat de verschillende soorten printers zijn, welke materialen je nodig hebt en waar je modellen kan vinden."
   },
   {
@@ -304,7 +568,11 @@
   },
   {
     "title": "Vuur maken met een magnesium stick",
-    "speakers": [{ "name": "Wouter Peetermans" }],
+    "speakers": [
+      {
+        "name": "Wouter Peetermans"
+      }
+    ],
     "abstract": "Hoe maak je een vuur met natuurlijke materialen en een magnesiumstick"
   }
 ]
